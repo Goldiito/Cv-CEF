@@ -11,3 +11,13 @@
     font-style: normal;
   }
 
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+

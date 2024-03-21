@@ -16,8 +16,24 @@ body{
     flex-direction: column;
 }
 
+header{
+    background-color: #782221;
+    color: white;
+}
+
+header address{
+    background-color: #2c1d27;
+}
+
 main{
     display: grid;
     grid-template-columns: 1fr 2fr;
 }
 
+aside{
+    background-color: #782221;
+}
+
+h2{
+    background-color: #dbc2a4;
+}

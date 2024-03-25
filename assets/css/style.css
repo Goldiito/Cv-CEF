@@ -13,14 +13,19 @@
 
 body{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 header{
+    display: flex;
     background-color: #782221;
     color: white;
 }
 
+header figure{
+    display: flexbox;
+    justify-content: center;
+}
 header address{
     background-color: #2c1d27;
 }
@@ -37,3 +42,4 @@ aside{
 h2{
     background-color: #dbc2a4;
 }
+

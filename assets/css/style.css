@@ -23,11 +23,22 @@ header{
     background-color: #782221;
     color: white;
 }
-header h1{
-    display: flex;
-    justify-content: center;
-}
+
 figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header figure img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 100%;
+    box-shadow:5px 5px 10px 2px black;
+}
+
+header h1{
     display: flex;
     justify-content: center;
 }
@@ -38,20 +49,53 @@ address{
     justify-content: space-around;
 }
 
+address a{
+    color: white;
+}
 main{
     display: flex;
+    gap: 30px;
 }
 
 aside{
+    display: flex;
+    flex-direction: column;
     background-color: #782221;
     flex-wrap: wrap;
+    width: 400px;
 }
 
+.A_Propos{
+    margin-right: 50px;
+}
+
+.Langues{
+    margin-right: 50px;
+}
+
+.Interet{
+    margin-right: 50px;
+}
 h2{
+
     background-color: #dbc2a4;
 }
 
+h3 img{
+    width: 100px;
+}
+
 .main_Experience h2{
+    width: 760px;
     background:linear-gradient(to right,#782221 3%,#dbc2a4 1%);
 }
 
+footer{
+    background-color: #782221;
+    display: flex;
+    justify-content: center;
+}
+
+footer img{
+    width: 100px;
+}
